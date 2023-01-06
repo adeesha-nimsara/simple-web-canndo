@@ -1,0 +1,270 @@
+/*Header Css*/
+
+#box-width{
+    width: 95%;
+}
+
+#menu{
+    margin-top: 25px;
+    margin-bottom: 25px;
+    font-size: 20px;
+}
+
+#menu li{
+    padding: 0 20px 0 20px;
+}
+
+#nav-menu{
+    padding-top: 40px;
+}
+
+#hamburger{
+    padding-top: 40px;
+}
+
+.menu-btn{
+    background-color: #1754a3;
+    border: none;
+    width: 250px;
+    border-radius: 25px;
+    color: white;
+}
+
+.water-mrk{
+    background-color: red;
+}
+
+/*About Canndo Css*/
+
+#about-div{
+    font-size: 15px;
+    color: white;
+    background-color: #1754a3;
+    margin-bottom: 100px;
+}
+
+#about-left{
+    padding: 70px;
+    padding-top: 90px;
+}
+
+#about-left h1{
+    font-size: 40px;
+    color: #45a2dc;
+}
+
+.about-btn{
+    background-color: #45a2dc;
+    border: none;
+    width: 300px;
+    height: 50px;
+    border-radius: 100px;
+    margin-top: 40px;
+}
+
+/*What We Do Css*/
+
+#what-we-do-div{
+    font-size: 15px;
+}
+
+#what-we-do-div h1{
+    font-size: 60px;
+    color: #1754a3;
+}
+
+.what-we-do-btn{
+    background-color: #45a2dc;
+    border: none;
+    width: 300px;
+    height: 50px;
+    border-radius: 100px;
+    margin-top: 40px;
+    color: white;
+    margin-left: -120px;
+}
+
+#what-we-do-bg-img img{
+    position:static;
+    width: 100%;
+}
+
+#what-we-do-bg-img{
+    position: absolute;
+    top: 450px;
+    width: 95%;
+    }
+
+/*Teachers Head Css*/
+
+#teachers-head-row{
+    margin-top: 100px;
+    margin-bottom: 100px;
+    font-size: 30px;
+    color: #1754a3;
+}
+
+#teachers-head-left h1{
+    font-size: 80px;
+    color: #1754a3;
+}
+
+#teachers-head-description{
+    background-color: #45a2dc;
+    padding: 50px;
+    font-size: 20px;
+    color: white;
+}
+
+/*Teachers Cards*/
+
+#teacher-name{
+    margin-bottom: 20px;
+    background-color: #1754a3;
+    height: 80px;
+    border-right: 3px solid white;
+}
+
+/*Projects Css*/
+
+.project-sec{
+    background-image: url('../images/Group\ 43.png');
+}
+
+#projects-row{
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+#projects-row h1{
+    font-size: 60px;
+    color: #1754a3;
+    margin-bottom: 50px;
+}
+
+.read-more-btn{
+    background-color: #45a2dc;
+    border: none;
+    width: 250px;
+    height: 50px;
+    border-radius: 100px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+/*Donations Css*/
+
+#donations-row{
+    background-color: #45a2dc;
+    color: white;
+}
+
+#donations-left{
+    text-align: center;
+    padding: 60px;
+}
+
+.donate-price-btn{
+    width: 90%;
+    height: 100px;
+    border: none;
+    border-radius: 25px;
+    margin-bottom: 10px;
+    margin-top: 40px;
+    background-color: #1754a3;
+    font-size: 40px;
+    color: white;
+}
+
+.donate-price-btn-last{
+    width: 95%;
+    margin-top: 40px;
+    height: 100px;
+    border: none;
+    border-radius: 25px;
+    margin-bottom: 10px;
+    background-color: #1754a3;
+    font-size: 40px;
+    color: white;
+}
+
+#donations-right{
+    padding: 60px;
+}
+
+.donate-btn{
+    width: 300px;
+    margin-top: 50px;
+    height: 50px;
+    border: none;
+    border-radius: 25px;
+    margin-bottom: 20px;
+    background-color: #1754a3;
+    font-size: 15px;
+    color: white;
+}
+
+/*footer Css*/
+
+footer{
+    background-color: #1754a3;
+    color: white;
+    font-weight: bold;
+}
+
+#footer-menu li{
+    padding: 10px 20px 10px 20px;
+}
+
+#footer-menu a{
+    color: white;
+}
+
+#footer-social{
+    font-weight: normal;
+}
+
+#footer-social a{
+    color: white;
+}
+
+@media screen and (max-width: 768px) {
+    #box-width{
+        width: 100%;
+    }
+    
+    #about-left{
+        margin-top: 0px;
+        padding: 10px;
+    }
+
+    #what-we-do-div{
+        font-size: 20px;
+        padding: 10px;
+    }
+
+    .what-we-do-btn{
+        margin-left: 0px;
+    }
+
+    #donations-right{
+        text-align: center;
+        padding: 10px;
+    }
+    
+    #nav-menu{
+        display: none;
+    }
+
+    footer{
+        text-align: center;
+    }
+
+    #copyrights{
+        text-align: center;
+    }
+    
+    #footer-menu{
+        margin-bottom: 20px;
+    }
+}
